@@ -22,3 +22,5 @@ docker run -it -p 3499:3499 python-falcond
 ```
 
 Docker Hub Link: https://hub.docker.com/r/makseli/python-falcon-docker
+
+Example run with Docker Compose: https://github.com/makseli/falcon-json-schema-validate-path-query

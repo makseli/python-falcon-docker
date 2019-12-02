@@ -12,4 +12,4 @@ RUN pip install falcon
 COPY ./falcon-app /app
 WORKDIR /app
 
-#CMD ["gunicorn", "-b", "0.0.0.0:3499", "main:app"]
+CMD ["gunicorn", "-b", "0.0.0.0:3499", "main:app"]
